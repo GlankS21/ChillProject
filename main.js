@@ -55,17 +55,5 @@ function draw() {
     ellipse(0, 0, particle.size, particle.size);
     pop();
   });
-  rectMode(CORNER);
-  if (mouseIsPressed && mouseButton == RIGHT) {
-    image(img, 0, 0);
-  }
   pop();
-}
-
-function updateParticleCount() {
-  const newMaxSize = map(particleCount, MIN_PARTICLE_COUNT, MAX_PARTICLE_COUNT, MAX_PARTICLE_SIZE, MIN_PARTICLE_SIZE);
-  particles.forEach(p => {
-    p.size = min(p.size, newMaxSize);
-  });
-  maxSize = newMaxSize;
 }
