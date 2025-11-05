@@ -10,7 +10,7 @@ const REPULSION_STRENGTH = 0.4;
 const IMG_RESIZED_WIDTH = 300;
 const IMG_SCAN_STEPS = 1;
 
-var imgNames = ["/cat/uia.png", "/cat/1.webp", "/cat/2.png", "/cat/3.webp", "/cat/4.webp"];
+var imgNames = ["uia.png", "1.webp", "2.png", "3.webp", "4.webp"];
 
 var particles = [];
 var indices = [];
