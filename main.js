@@ -11,6 +11,7 @@ const IMG_RESIZED_WIDTH = 300;
 const IMG_SCAN_STEPS = 1;
 
 var imgNames = ["/cat/uia.png", "/cat/1.webp", "/cat/2.png", "/cat/3.webp", "/cat/4.webp"];
+
 var particles = [];
 var indices = [];
 var imgIndex = 0;
