@@ -6,7 +6,7 @@ function startAutoImageSwitch() {
   switchInterval = setInterval(() => {
     imgIndex = (imgIndex + 1) % imgNames.length;
     loadImg(imgNames[imgIndex]);
-  }, 3000);
+  }, Math.floor(Math.random() * 2000) + 4000);
 }
 
 function loadImg(imgName) {

@@ -1,6 +1,6 @@
 const SPIN_MULTIPLIER = 100;
 const MIN_PARTICLE_COUNT = 0;
-const MAX_PARTICLE_COUNT = 2000;
+const MAX_PARTICLE_COUNT = 4000;
 const MIN_PARTICLE_SIZE = 3;
 const MAX_PARTICLE_SIZE = 12;
 const MIN_FORCE = 0.1;
@@ -10,12 +10,12 @@ const REPULSION_STRENGTH = 0.4;
 const IMG_RESIZED_WIDTH = 300;
 const IMG_SCAN_STEPS = 1;
 
-var imgNames = ["uia.png", "uia.png"];
+var imgNames = ["/cat/uia.png", "/cat/1.webp", "/cat/2.png", "/cat/3.webp", "/cat/4.webp"];
 var particles = [];
 var indices = [];
 var imgIndex = 0;
 var drawType = 0;
-var particleCount = 2000;
+var particleCount = 4000;
 var maxSize = 0;
 var img;
 
